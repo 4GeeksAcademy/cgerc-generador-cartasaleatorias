@@ -1,5 +1,18 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background-color: green
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5;
+    color: black;
+}
+
+.card-heart{
+    justify-content: flex-start;
+    color:red;
 }
