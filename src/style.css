@@ -1,18 +1,61 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
-body{
-    background-color: green
-}
-
-.container{
-    display: flex;
+body {
+    background-color: green;
     justify-content: center;
-    padding: 10px;
-    border-radius: 5;
-    color: black;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
-.card-heart{
-    justify-content: flex-start;
-    color:red;
+.container {
+    background-color: whitesmoke;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    color: black;
+    position: relative;
+}
+
+.card-heart {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: red;
+    font-size: 24px;
+}
+
+.top-left-heart{
+    display: flex;
+    justify-content: start;
+}
+
+.top-right-heart{
+    display:flex;
+    justify-content: end;
+}
+.card-diamond {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+
+}
+
+.card-club {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    
+}
+
+.card-spade {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    
 }
